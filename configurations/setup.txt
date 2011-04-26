@@ -1,0 +1,82 @@
+includeLibs.tx_div = EXT:div/class.tx_div.php
+
+# Common configuration for all controllers
+plugin.tx_miflowplayer.configuration {
+  pathToTemplateDirectory = EXT:miflowplayer/templates/
+  pathToLanguageFile = EXT:miflowplayer/locallang.xml
+}
+
+includeLibs.tx_miflowplayer_player = EXT:miflowplayer/controllers/class.tx_miflowplayer_controller_player.php
+
+// Setup player controller
+plugin.tx_miflowplayer.player = USER
+plugin.tx_miflowplayer.player < plugin.tx_miflowplayer.configuration
+plugin.tx_miflowplayer.player {
+	userFunc = tx_miflowplayer_controller_player->main
+	defaultAction = displayPlayer
+
+	// All configs for the flowplayer video
+	config {
+		video {
+			width = 480
+			height = 360
+			url =
+		}
+		param {
+			key =
+			clip {
+				start =
+				autoPlay = false
+				scaling = "fit"
+				loop = false
+				autoBuffering = false
+				fadeInSpeed = 2000
+				fadeOutSpeed = 2000
+			}
+			canvas { 
+	    	// configure background properties 
+	    	background = '#000000'
+	    	backgroundGradient = 'none'
+			}
+			plugins { 
+				controls { 
+					autoHide = "always"
+					// which buttons are visible and which are not? 
+        			play = true 
+					volume = true 
+					mute = true 
+					time = true 
+					stop = false 
+					playlist = false 
+					fullscreen = true
+					// scrubber is a well-known nickname for the timeline/playhead combination 
+					scrubber = true
+
+					width = '98%'
+          bottom = 5
+          left = '50%'
+          borderRadius = 15
+				} 
+			}
+		}
+		startscreen {
+			autoPlay = true
+			scaling = "fit"
+			url =
+		}
+		configstring =
+		wmode = transparent
+	}
+
+	views {
+		container {
+			tag.single = a
+			tag.playlist = div
+			class = video
+		}
+		enableMultipleVideos = 0
+	}
+	models{
+	}
+}
+tt_content.list.20.tx_miflowplayer_player < plugin.tx_miflowplayer.player

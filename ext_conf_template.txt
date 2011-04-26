@@ -1,0 +1,5 @@
+# cat=plugin.miflowplayer/enable; type=boolean; label=Disable jQuery: This will deactivate inclusion of jQuery by this extension. You can use your own inclusion method instead
+disableJsFramework = 1
+
+# cat=plugin.miflowplayer/enable; type=boolean; label=Disable jQuery Flowplayer: This will deactivate inclusion of flowplayer-3.2.2.min.js by this extension. You can use your own inclusion method instead
+disableFlowplayerJs = 0

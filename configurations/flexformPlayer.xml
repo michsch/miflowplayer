@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.s_def</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<videourl>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.s_def.file</label>
+							<config>
+								<type>group</type>
+								<internal_type>file</internal_type>
+								<allowed>flv,f4v,mp4</allowed>
+								<max_size>100000</max_size>
+								<uploadfolder>uploads/tx_miflowplayer</uploadfolder>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<minitems>0</minitems>
+								<show_thumbs>1</show_thumbs>
+							</config>
+						</TCEforms>
+					</videourl>
+					<startscreenurl>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.image.file</label>
+							<config>
+								<type>group</type>
+								<internal_type>file</internal_type>
+								<allowed>jpg,jpeg,gif,png</allowed>
+								<max_size>1000</max_size>
+								<uploadfolder>uploads/tx_miflowplayer</uploadfolder>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<minitems>0</minitems>
+								<show_thumbs>1</show_thumbs>
+							</config>
+						</TCEforms>
+					</startscreenurl>
+					<startscreenscaling>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.image.scaling</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.default</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.clip.scaling.fit</numIndex>
+										<numIndex index="1">"fit"</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.clip.scaling.half</numIndex>
+										<numIndex index="1">"half"</numIndex>
+									</numIndex>
+									<numIndex index="3">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.clip.scaling.orig</numIndex>
+										<numIndex index="1">"orig"</numIndex>
+									</numIndex>
+									<numIndex index="4">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.clip.scaling.scale</numIndex>
+										<numIndex index="1">"scale"</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</startscreenscaling>
+					<videowidth>
+						<TCEforms>
+							<label>LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.s_flash.width</label>
+							<config>
+								<type>input</type>
+								<size>5</size>
+								<value></value>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</videowidth>
+					<videoheight>
+						<TCEforms>
+							<label>LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.s_flash.height</label>
+							<config>
+								<type>input</type>
+								<size>5</size>
+								<value></value>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</videoheight>
+					<wmode>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.wmode</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.default</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.wmode.transparent</numIndex>
+										<numIndex index="1">transparent</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.wmode.opaque</numIndex>
+										<numIndex index="1">opaque</numIndex>
+									</numIndex>
+									<numIndex index="3">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.wmode.window</numIndex>
+										<numIndex index="1">window</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</wmode>
+				</el>
+			</ROOT>
+		</sDEF>
+		<CLIP>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.clip</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<paramclipautoPlay>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.clip.autoPlay</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.default</numIndex>
+										<numIndex index="1">0</numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.deactivated</numIndex>
+										<numIndex index="1">false</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.activated</numIndex>
+										<numIndex index="1">true</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</paramclipautoPlay>
+					<paramclipscaling>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.clip.scaling</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.default</numIndex>
+										<numIndex index="1">0</numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.clip.scaling.fit</numIndex>
+										<numIndex index="1">"fit"</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.clip.scaling.half</numIndex>
+										<numIndex index="1">"half"</numIndex>
+									</numIndex>
+									<numIndex index="3">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.clip.scaling.orig</numIndex>
+										<numIndex index="1">"orig"</numIndex>
+									</numIndex>
+									<numIndex index="4">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.clip.scaling.scale</numIndex>
+										<numIndex index="1">"scale"</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</paramclipscaling>
+					<paramcliploop>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.clip.loop</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.default</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.deactivated</numIndex>
+										<numIndex index="1">false</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.activated</numIndex>
+										<numIndex index="1">true</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</paramcliploop>
+					<paramclipautoBuffering>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.clip.autoBuffering</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.default</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.deactivated</numIndex>
+										<numIndex index="1">false</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.activated</numIndex>
+										<numIndex index="1">true</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</paramclipautoBuffering>
+				</el>
+			</ROOT>
+		</CLIP>
+		<CONTROLS>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.plugins.controls</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<parampluginscontrolsplay>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.plugins.controls.play</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.default</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.deactivated</numIndex>
+										<numIndex index="1">false</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.activated</numIndex>
+										<numIndex index="1">true</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</parampluginscontrolsplay>
+					<parampluginscontrolsvolume>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.plugins.controls.volume</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.default</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.deactivated</numIndex>
+										<numIndex index="1">false</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.activated</numIndex>
+										<numIndex index="1">true</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</parampluginscontrolsvolume>
+					<parampluginscontrolsmute>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.plugins.controls.mute</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.default</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.deactivated</numIndex>
+										<numIndex index="1">false</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.activated</numIndex>
+										<numIndex index="1">true</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</parampluginscontrolsmute>
+					<parampluginscontrolstime>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.plugins.controls.time</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.default</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.deactivated</numIndex>
+										<numIndex index="1">false</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.activated</numIndex>
+										<numIndex index="1">true</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</parampluginscontrolstime>
+					<parampluginscontrolsstop>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.plugins.controls.stop</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.default</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.deactivated</numIndex>
+										<numIndex index="1">false</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.activated</numIndex>
+										<numIndex index="1">true</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</parampluginscontrolsstop>
+					<parampluginscontrolsfullscreen>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.plugins.controls.play</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.default</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.deactivated</numIndex>
+										<numIndex index="1">false</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.activated</numIndex>
+										<numIndex index="1">true</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</parampluginscontrolsfullscreen>
+					<parampluginscontrolsscrubber>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.plugins.controls.scrubber</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.default</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.deactivated</numIndex>
+										<numIndex index="1">false</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.activated</numIndex>
+										<numIndex index="1">true</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</parampluginscontrolsscrubber>
+					<parampluginscontrolsautoHide>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.plugins.controls.autoHide</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.default</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.deactivated</numIndex>
+										<numIndex index="1">"never"</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.activated</numIndex>
+										<numIndex index="1">"always"</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</parampluginscontrolsautoHide>
+				</el>
+			</ROOT>
+		</CONTROLS>
+		<!--
+		<sEXT>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.s_ext</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<jsConfig>
+						<TCEforms>
+							<label>LLL:EXT:miflowplayer/locallang_db.xml:tx_miflowplayer.s_ext.jsConfig</label>
+							<config>
+								<type>text</type>
+								<size>200</size>
+								<rows>5</rows>
+								<value></value>
+								<eval></eval>
+							</config>
+						</TCEforms>
+					</jsConfig>
+				</el>
+			</ROOT>
+		</sEXT>
+		-->
+	</sheets>
+</T3DataStructure>

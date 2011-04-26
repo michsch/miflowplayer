@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'miflowplayer'</description>
+		<labelContext type="array">
+		</labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_miflowplayer_player">Flowplayer</label>
+			<label index="tx_miflowplayer_player.title">Flowplayer</label>
+			<label index="tx_miflowplayer_player.description">Inserts the flowplayer as a plugin.</label>
+			<label index="tx_miflowplayer.default">default</label>
+			<label index="tx_miflowplayer.activated">activated</label>
+			<label index="tx_miflowplayer.deactivated">deactivated</label>
+			<label index="tx_miflowplayer.s_def">Video</label>
+			<label index="tx_miflowplayer.s_def.file">Video file</label>
+			<label index="tx_miflowplayer.image.file">Preview image (not used if autoPlay is activated)</label>
+			<label index="tx_miflowplayer.image.scaling">Image scaling</label>
+			<label index="tx_miflowplayer.clip">Player (Clip)</label>
+			<label index="tx_miflowplayer.clip.autoPlay">Autostart</label>
+			<label index="tx_miflowplayer.clip.scaling">Scaling</label>
+			<label index="tx_miflowplayer.clip.scaling.fit">Fit to window</label>
+			<label index="tx_miflowplayer.clip.scaling.half">Half-size</label>
+			<label index="tx_miflowplayer.clip.scaling.orig">Original</label>
+			<label index="tx_miflowplayer.clip.scaling.scale">Scale</label>
+			<label index="tx_miflowplayer.clip.loop">Loop</label>
+			<label index="tx_miflowplayer.clip.autoBuffering">autoBuffering</label>
+			<label index="tx_miflowplayer.plugins.controls">Controlbar</label>
+			<label index="tx_miflowplayer.plugins.controls.play">Play</label>
+			<label index="tx_miflowplayer.plugins.controls.volume">Volume</label>
+			<label index="tx_miflowplayer.plugins.controls.mute">Mute</label>
+			<label index="tx_miflowplayer.plugins.controls.time">Time</label>
+			<label index="tx_miflowplayer.plugins.controls.stop">Stop</label>
+			<label index="tx_miflowplayer.plugins.controls.fullscreen">Fullscreen</label>
+			<label index="tx_miflowplayer.plugins.controls.scrubber">Timeline</label>
+			<label index="tx_miflowplayer.plugins.controls.autoHide">Hide controlbar</label>
+			<label index="tx_miflowplayer.s_flash">Flash</label>
+			<label index="tx_miflowplayer.s_flash.version">Required flash version</label>
+			<label index="tx_miflowplayer.s_flash.width">Width</label>
+			<label index="tx_miflowplayer.s_flash.height">Height</label>
+			<label index="tx_miflowplayer.s_ext">Ext</label>
+			<label index="tx_miflowplayer.s_ext.jsConfig">jsConfig</label>
+			<label index="tx_miflowplayer.wmode">wmode</label>
+			<label index="tx_miflowplayer.wmode.transparent">transparent</label>
+			<label index="tx_miflowplayer.wmode.opaque">opaque</label>
+			<label index="tx_miflowplayer.wmode.window">window</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tx_miflowplayer_player">Flowplayer</label>
+			<label index="tx_miflowplayer_player.title">Flowplayer</label>
+			<label index="tx_miflowplayer_player.description">Fügt den Flowplayer als Plugin auf der Webseite ein.</label>
+			<label index="tx_miflowplayer.default">Standard</label>
+			<label index="tx_miflowplayer.activated">aktiv</label>
+			<label index="tx_miflowplayer.deactivated">inaktiv</label>
+			<label index="tx_miflowplayer.s_def">Video</label>
+			<label index="tx_miflowplayer.s_def.file">Video Datei</label>
+			<label index="tx_miflowplayer.image.file">Vorschau Bild (wird nur angezeigt, wenn Autostart deaktiviert ist)</label>
+			<label index="tx_miflowplayer.image.scaling">Vorschaubild skalieren</label>
+			<label index="tx_miflowplayer.clip">Player (Clip)</label>
+			<label index="tx_miflowplayer.clip.autoPlay">Autostart (Video startet direkt nach dem Laden)</label>
+			<label index="tx_miflowplayer.clip.scaling">Skalieren</label>
+			<label index="tx_miflowplayer.clip.scaling.fit">Auf Fenstergröße anpassen (Proportionen behalten)</label>
+			<label index="tx_miflowplayer.clip.scaling.half">Halbe größe (Proportionen behalten)</label>
+			<label index="tx_miflowplayer.clip.scaling.orig">Original (Proportionen behalten)</label>
+			<label index="tx_miflowplayer.clip.scaling.scale">Skalieren (Proportionen werden ignoriert)</label>
+			<label index="tx_miflowplayer.clip.loop">Video nach dem Abspielen wiederholen</label>
+			<label index="tx_miflowplayer.clip.autoBuffering">Automatisches Vorladen des Videos</label>
+			<label index="tx_miflowplayer.plugins.controls">Kontrollleiste</label>
+			<label index="tx_miflowplayer.plugins.controls.play">Abspielen</label>
+			<label index="tx_miflowplayer.plugins.controls.volume">Lautstärke</label>
+			<label index="tx_miflowplayer.plugins.controls.mute">Stumm</label>
+			<label index="tx_miflowplayer.plugins.controls.time">Zeit</label>
+			<label index="tx_miflowplayer.plugins.controls.stop">Stop</label>
+			<label index="tx_miflowplayer.plugins.controls.fullscreen">Fullscreen</label>
+			<label index="tx_miflowplayer.plugins.controls.scrubber">Zeitleiste</label>
+			<label index="tx_miflowplayer.plugins.controls.autoHide">Kontrollleiste beim Abspielen verstecken</label>
+			<label index="tx_miflowplayer.s_flash">Flash</label>
+			<label index="tx_miflowplayer.s_flash.version">Benötigte Flash-Version</label>
+			<label index="tx_miflowplayer.s_flash.width">Breite</label>
+			<label index="tx_miflowplayer.s_flash.height">Höhe</label>
+			<label index="tx_miflowplayer.s_ext">Ext</label>
+			<label index="tx_miflowplayer.s_ext.jsConfig">jsConfig</label>
+			<label index="tx_miflowplayer.wmode">wmode</label>
+			<label index="tx_miflowplayer.wmode.transparent">transparent</label>
+			<label index="tx_miflowplayer.wmode.opaque">opaque</label>
+			<label index="tx_miflowplayer.wmode.window">window</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="de" type="array">
+			<label index="tx_miflowplayer_player" type="integer">62406486</label>
+			<label index="tx_miflowplayer_player.title" type="integer">62406486</label>
+			<label index="tx_miflowplayer_player.description" type="integer">837034</label>
+			<label index="tx_miflowplayer.default" type="integer">203553129</label>
+			<label index="tx_miflowplayer.activated" type="integer">205063619</label>
+			<label index="tx_miflowplayer.deactivated" type="integer">130043216</label>
+			<label index="tx_miflowplayer.s_def" type="integer">55455001</label>
+			<label index="tx_miflowplayer.s_def.file" type="integer">97751937</label>
+			<label index="tx_miflowplayer.image.file" type="integer">138891551</label>
+			<label index="tx_miflowplayer.image.scaling" type="integer">17867507</label>
+			<label index="tx_miflowplayer.clip" type="integer">204686866</label>
+			<label index="tx_miflowplayer.clip.autoPlay" type="integer">188897897</label>
+			<label index="tx_miflowplayer.clip.scaling" type="integer">197748700</label>
+			<label index="tx_miflowplayer.clip.scaling.fit" type="integer">250678792</label>
+			<label index="tx_miflowplayer.clip.scaling.half" type="integer">249846245</label>
+			<label index="tx_miflowplayer.clip.scaling.orig" type="integer">10825127</label>
+			<label index="tx_miflowplayer.clip.scaling.scale" type="integer">140147925</label>
+			<label index="tx_miflowplayer.clip.loop" type="integer">144538384</label>
+			<label index="tx_miflowplayer.clip.autoBuffering" type="integer">28485952</label>
+			<label index="tx_miflowplayer.s_flash" type="integer">200459342</label>
+			<label index="tx_miflowplayer.s_flash.version" type="integer">207977512</label>
+			<label index="tx_miflowplayer.s_flash.width" type="integer">53040229</label>
+			<label index="tx_miflowplayer.s_flash.height" type="integer">250375243</label>
+			<label index="tx_miflowplayer.s_ext" type="integer">139114386</label>
+			<label index="tx_miflowplayer.s_ext.jsConfig" type="integer">238353676</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="de" type="array">
+			<label index="tx_miflowplayer_player">Flowplayer</label>
+			<label index="tx_miflowplayer_player.title">Flowplayer</label>
+			<label index="tx_miflowplayer_player.description">Inserts the flowplayer as a plugin.</label>
+			<label index="tx_miflowplayer.default">default</label>
+			<label index="tx_miflowplayer.activated">activated</label>
+			<label index="tx_miflowplayer.deactivated">deactivated</label>
+			<label index="tx_miflowplayer.s_def">Video</label>
+			<label index="tx_miflowplayer.s_def.file">Video file</label>
+			<label index="tx_miflowplayer.image.file">Preview image (not used if autoPlay is activated)</label>
+			<label index="tx_miflowplayer.image.scaling">Image scaling</label>
+			<label index="tx_miflowplayer.clip">Player (Clip)</label>
+			<label index="tx_miflowplayer.clip.autoPlay">Autostart</label>
+			<label index="tx_miflowplayer.clip.scaling">Scaling</label>
+			<label index="tx_miflowplayer.clip.scaling.fit">Fit to window</label>
+			<label index="tx_miflowplayer.clip.scaling.half">Half-size</label>
+			<label index="tx_miflowplayer.clip.scaling.orig">Original</label>
+			<label index="tx_miflowplayer.clip.scaling.scale">Scale</label>
+			<label index="tx_miflowplayer.clip.loop">Loop</label>
+			<label index="tx_miflowplayer.clip.autoBuffering">autoBuffering</label>
+			<label index="tx_miflowplayer.s_flash">Flash</label>
+			<label index="tx_miflowplayer.s_flash.version">Required flash version</label>
+			<label index="tx_miflowplayer.s_flash.width">Width</label>
+			<label index="tx_miflowplayer.s_flash.height">Height</label>
+			<label index="tx_miflowplayer.s_ext">Ext</label>
+			<label index="tx_miflowplayer.s_ext.jsConfig">jsConfig</label>
+			<label index="tx_miflowplayer.wmode">wmode</label>
+			<label index="tx_miflowplayer.wmode.transparent">transparent</label>
+			<label index="tx_miflowplayer.wmode.opaque">opaque</label>
+			<label index="tx_miflowplayer.wmode.window">window</label>
+		</languageKey>
+	</orig_text>
+</T3locallang>
